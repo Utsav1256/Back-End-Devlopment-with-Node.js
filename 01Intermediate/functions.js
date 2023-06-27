@@ -21,3 +21,22 @@ let myAdder = function (num1, num2) {
   return added;
 };
 console.log(myAdder(3, 5));
+
+let myMultiplier = function (num1, num2) {
+  //   let multiplied = num1 * num2;
+  //   return multiplied;
+  return num1 * num2;
+};
+console.log(myMultiplier(3, 5));
+
+// console.log(guestUser);
+
+let guestUser = function (name = "UnName", courseCount = 0) {
+  return "Hello " + name + " and your course count is " + courseCount;
+};
+console.log(guestUser());
+console.log(guestUser("Utsav"));
+console.log(guestUser(5));
+console.log(guestUser(null, 5));
+console.log(guestUser("Utsav", 5));
+console.log(guestUser("Utsav", null, 5));
