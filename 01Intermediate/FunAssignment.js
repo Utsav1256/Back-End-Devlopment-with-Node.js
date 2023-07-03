@@ -33,8 +33,8 @@ let grade = function (currentMarks, totalMarks) {
   } else {
     myGrade = "F";
   }
-  return `Your Grade is ${myGrade}`;
+  return `Your Grade is ${myGrade} and Percentage is ${percentage}`;
 };
 
-let Grade = grade(41, 100);
+let Grade = grade(99, 100);
 console.log(Grade);
